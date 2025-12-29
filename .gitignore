@@ -1,0 +1,69 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+
+# ================================
+# Virtual environments
+# ================================
+venv/
+.venv/
+env/
+ENV/
+Lib/
+Include/
+Scripts/
+share/
+pyvenv.cfg
+
+# ================================
+# Hugging Face / ML artifacts
+# ================================
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Training checkpoints & state
+checkpoint-*/
+optimizer.pt
+scheduler.pt
+scaler.pt
+rng_state.pth
+trainer_state.json
+training_args.bin
+
+# Hugging Face cache (optional but recommended)
+.cache/
+.huggingface/
+
+# ================================
+# Logs & outputs
+# ================================
+*.log
+logs/
+runs/
+outputs/
+
+# ================================
+# OS / Editor junk
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ================================
+# Misc
+# ================================
+*.zip
+*.tar
+*.tar.gz
+*.7z
