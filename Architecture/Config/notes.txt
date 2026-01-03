@@ -43,3 +43,12 @@ key takeaways — hugging face config introspection
 mental model:
 config = architectural + behavioral contract between model code, weights,
 tokenizer, runtime, and generation logic.
+========================================================================
+
+consumption of config object:
+
+after creation the config object is consumed in four critical ways
+1. model skeleton
+2. weight loading contract
+3. runtime behaviour
+4. generation defaults

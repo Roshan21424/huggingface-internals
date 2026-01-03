@@ -24,7 +24,7 @@ for f in identity_fields:
 
 architecture_fields = [
     "vocab_size",
-    "d_model",
+    "d_model", # 512
     "num_layers",
     "num_decoder_layers",
     "num_heads",
